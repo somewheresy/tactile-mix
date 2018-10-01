@@ -1,0 +1,605 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:D:/Developer/Unity/Projects/tactile-mixer/Temp/Assembly-CSharp.dll
+-nostdlib
+-unsafe
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.ProGrids.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Antlr3.Runtime.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Bolt.Core.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Bolt.Core.Runtime.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Bolt.Flow.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Bolt.Flow.Runtime.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Bolt.State.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Bolt.State.Runtime.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Ionic.Zip.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Ludiq.Core.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Ludiq.Core.Runtime.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Ludiq.Graphs.Editor.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Ludiq.Graphs.Runtime.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Ludiq.Platforms.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/MiscUtil.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/Newtonsoft.Json.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/SharpRaven.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/System.Threading.dll
+-r:D:/Developer/Unity/Projects/tactile-mixer/Assets/Plugins/Assemblies/YamlDotNet.dll
+-r:C:/Users/dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll
+-r:C:/Users/dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderMeshOps.dll
+-r:C:/Users/dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll
+-r:C:/Users/dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/pb_Stl.dll
+-r:C:/Users/dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll
+-r:C:/Users/dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_2_0
+-d:UNITY_2018_2
+-d:UNITY_2018
+-d:PLATFORM_ARCH_64
+-d:UNITY_64
+-d:UNITY_ANALYTICS
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_PACKMAN
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-d:UNITY_PRO_LICENSE
+-d:CROSS_PLATFORM_INPUT
+-d:UNITY_POST_PROCESSING_STACK_V2
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_Animation_TransformTweenBehaviour_FloatEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_AssetFolder.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_ProximityEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_SerializableDictionaryBase.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_SerializableHashSetBase.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_SingleLayer.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_StreamingAsset.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_Leap_Unity_StreamingFolder.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_AnimationTriggers.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_Button_ButtonClickedEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_ColorBlock.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_Dropdown_DropdownEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_Dropdown_OptionDataList.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_FontData.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_InputField_OnChangeEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_Navigation.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_Scrollbar_ScrollEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_ScrollRect_ScrollRectEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_Slider_SliderEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_SpriteState.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityEngine_UI_Toggle_ToggleEvent.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityStandardAssets_CrossPlatformInput_TiltInput_AxisMapping.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityStandardAssets_Utility_AutoMobileShaderSwitch_ReplacementList.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityStandardAssets_Utility_TimedObjectActivator_Entries.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Generated/Ludiq.Core/Property Providers/PropertyProvider_UnityStandardAssets_Utility_WaypointCircuit_WaypointList.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Imported/Horizon Based Ambient Occlusion/Demo/Scripts/HBAOControl.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Imported/Horizon Based Ambient Occlusion/Demo/Scripts/RotateObject.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Imported/Horizon Based Ambient Occlusion/Scripts/HBAO.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Imported/Horizon Based Ambient Occlusion/Scripts/HBAO_Core.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Imported/Horizon Based Ambient Occlusion/Scripts/HBAO_Integrated.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/Imported/Horizon Based Ambient Occlusion/Scripts/HBAO_MinMaxSliderAttribute.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Examples/Example Assets/InertiaPostProcessProvider.cs"
+-i:"D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Examples/Example Assets/ProjectionPostProcessProvider.cs"
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Arm.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Bone.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/CircularObjectBuffer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Config.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Connection.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Controller.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/CopyFromLeapCExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/CopyFromOtherExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/CSharpExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Device.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/DeviceList.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/DistortionData.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Events.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/FailedDevice.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/FailedDeviceList.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Finger.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Frame.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Hand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/IController.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Image.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/ImageData.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/LeapC.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/LeapQuaternion.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/LeapTransform.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Logger.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Matrix.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/MemoryManager.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/MessageSeverity.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/PointMapping.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/StructMarshal.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/TransformExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Plugins/LeapCSharp/Vector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Algorithms/SlidingMax.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Algorithms/SmoothedFloat.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Algorithms/SmoothedQuaternion.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Algorithms/SmoothedVector3.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/CubicHermiteSpline/HermiteSpline.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/CubicHermiteSpline/HermiteSpline2.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/CubicHermiteSpline/HermiteSpline3.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Ease.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/IValueProxy.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/TransformTweenBehaviour.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Enums.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/IInterpolator.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/InterpolatorBases.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/MaterialInterpolators.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/TransformInterpolators.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/ValueInterpolators.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/TweenInstance.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/TweenRunner.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Animation/Tween/Tween.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attachments/AttachmentHand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attachments/AttachmentHandEnableDisable.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attachments/AttachmentHands.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attachments/AttachmentPointBehaviour.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attachments/AttachmentPointFlags.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/AutoFind.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/CombinablePropertyAttribute.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/CurveBounds.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/Disable.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/DisableIf.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/EditTimeOnly.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/EnumFlags.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/ImplementsInterface.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/ImplementsTypeNameDropdown.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/Incrementable.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/InspectorName.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/MaxValue.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/MinMax.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/MinValue.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/OnEditorChange.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/QuickButton.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/RunTimeOnly.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Attributes/Units.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/AssetFolder.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/DelayBuffer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/DeltaBuffer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Deque.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Either.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Hash.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/IIndexable.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/IIndexableStruct.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Maybe.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/MinHeap.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/MultiTypedList.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/MultiTypedReference.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Pool.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Pose.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/ProduceConsumeBuffer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/ReadonlyHashSet.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/ReadonlyList.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/ReadonlySlice.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/RingBuffer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/SerializableDictionary.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/SerializableHashSet.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/SerializableType.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Slice.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/StreamingAsset.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/StreamingFolder.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DataStructures/Type.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/AbstractHoldDetector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/Detector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/DetectorLogicGate.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/FingerDirectionDetector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/PalmDirectionDetector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/PinchDetector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ProximityDetector.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/EditorTools/LeapPreferences.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/EditorTools/LeapProjectChecks.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Encoding/VectorHand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/HandModelManager.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/HandRepresentation.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/DebugHand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/FingerModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/HandDrop.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/HandModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/HandModelBase.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/RiggedFinger.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/RigidFinger.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/RigidHand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/SkeletalFinger.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/SkeletalHand.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Hands/TestHandFactory.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/LeapImageRetriever.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/LeapProfiling.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/LeapProvider.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/LeapServiceProvider.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/LeapTestProvider.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/LeapXRServiceProvider.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Query/Query.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Query/QueryCollapseExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Query/QueryOperatorExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Query/QueryValueGenerators.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Space/Definitions/LeapCylindricalSpace.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Space/Definitions/LeapRadialSpace.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Space/Definitions/LeapSphericalSpace.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Space/ISpaceComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Space/ITransformer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Space/LeapSpace.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Space/LeapSpaceAnchor.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Testing/LeapTestBase.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Testing/StationaryTestLeapProvider.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/AnimationCurveUtil.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/ArrayPool.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/AssertHelper.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/BitConverterNonAlloc.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/Comment.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/ConnectionMonitor.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/DisconnectionNotice.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/EditorResources.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/EnableDepthBuffer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/Enum.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/EnumEventTable.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/ExecutionOrder.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/FrameRateControls.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/GuiRectUtil.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/HandUtils.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/Infix.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/InternalUtility.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/KeyEnableBehaviors.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/KeyEnableGameObjects.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/LeapColor.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/LeapUnityExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/ListAndArrayExtensions.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/PostProcessProvider.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/ProfilerSample.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/ProgressBar.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/RuntimeColliderGizmos.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/RuntimeGizmoManager.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/RuntimeGizmoToggle.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/SingleLayer.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/Swizzle.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/TransformHistory.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/TransformUtil.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/Utils.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/Utils/XRSupportUtil.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/XR/LeapEyeDislocator.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/LeapMotion/Core/Scripts/XR/XRHeightOffset.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/BloomComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/DitheringComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/FogComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/FxaaComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/GrainComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/TaaComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/UserLutComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Components/VignetteComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/BloomModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/DitheringModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/FogModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/GrainModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/UserLutModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Models/VignetteModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/PostProcessingComponent.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/PostProcessingContext.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/PostProcessingModel.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/PostProcessingProfile.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Scripts/CameraSwitch.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Scripts/LevelReset.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Scripts/ParticleSceneControls.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/SampleScenes/Scripts/SlowMoButton.cs
+-i:D:/Developer/Unity/Projects/tactile-mixer/Assets/Scripts/generateSpeakers.cs
+-v:0
