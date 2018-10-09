@@ -296,29 +296,23 @@
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\IgnoreCollisionsInChildren.cs" />
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\KabschSolver.cs" />
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\PhysicsCallbacks.cs" />
-     <Compile Include="Assets\Project\Scripts\AudioSourceFFT.cs" />
+     <Compile Include="Assets\Project\Scripts\AudioSpectrumColorChange.cs" />
      <Compile Include="Assets\Project\Scripts\CollisionHandler.cs" />
-     <Compile Include="Assets\Project\Scripts\DecibelsToLinear.cs" />
      <Compile Include="Assets\Project\Scripts\GenerateSpeakers.cs" />
      <Compile Include="Assets\Project\Scripts\GetObjectName.cs" />
-     <Compile Include="Assets\Project\Scripts\LinearToDecibels.cs" />
+     <Compile Include="Assets\Project\Scripts\Old\AudioSourceFFT.cs" />
      <Compile Include="Assets\Project\Scripts\Old\CleanUpOldComponents.cs" />
+     <Compile Include="Assets\Project\Scripts\Old\DecibelsToLinear.cs" />
      <Compile Include="Assets\Project\Scripts\Old\DestroyComponents.cs" />
-     <Compile Include="Assets\Project\Scripts\PlaybackControls.cs" />
+     <Compile Include="Assets\Project\Scripts\Old\LinearToDecibels.cs" />
+     <Compile Include="Assets\Project\Scripts\PanningTextUpdater.cs" />
      <Compile Include="Assets\Project\Scripts\PlaybackHandler.cs" />
      <Compile Include="Assets\Project\Scripts\SetHeadsetPos.cs" />
      <Compile Include="Assets\Project\Scripts\Sound.cs" />
      <Compile Include="Assets\Project\Scripts\SoundObjectFXController.cs" />
      <Compile Include="Assets\Project\Scripts\SoundObjectHandler.cs" />
      <Compile Include="Assets\Project\Scripts\TransportController.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\Project\Scripts\VolumeTextUpdater.cs" />
      <None Include="Assets\LeapMotion\Core\Resources\LeapCG.cginc" />
      <None Include="Assets\LeapMotion\Core\README_BEFORE_UPDATING.txt" />
      <None Include="Assets\LeapMotion\Core\readme.txt" />
@@ -329,7 +323,6 @@
      <None Include="Assets\LeapMotion\Core\Shaders\PassthroughBackground.shader" />
      <None Include="Assets\LeapMotion\Core\Version.txt" />
      <None Include="Assets\LeapMotion\Core\Shaders\VertexOffsetShader.shader" />
-     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>X:/Developer/Unity/Projects/tactile-mixer/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>

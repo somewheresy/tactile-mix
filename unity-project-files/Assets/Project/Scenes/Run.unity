@@ -688,8 +688,8 @@ MonoBehaviour:
     - {fileID: 1893786661}
     - {fileID: 202966433}
     - {fileID: 1602993608}
-  hoverActivationRadius: 0.2
-  touchActivationRadius: 0.075
+  hoverActivationRadius: 0.05
+  touchActivationRadius: 0.1
   _autoGenerateLayers: 1
   _templateLayer:
     layerIndex: 0
@@ -2609,6 +2609,57 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1242608154}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1248461417
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.204
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965184428878460, guid: 14ab4a51ceff80b4a9fd2988540ce92d,
+        type: 2}
+      propertyPath: _manager
+      value: 
+      objectReference: {fileID: 696577237}
+    - target: {fileID: 1705932141586802, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1251939803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,7 +3619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectManager: {fileID: 1573694301}
   m_togglechange: 0
-  m_play: 0
+  m_play: 1
 --- !u!4 &1573694305
 Transform:
   m_ObjectHideFlags: 0
@@ -3595,8 +3646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Monitor: {fileID: 4085803941938738, guid: 894577e123d5b8a4eb891b477b878b29, type: 2}
   Center: {fileID: 4297542717370800, guid: cbea13068a0ffac48b179dfd7526e4bf, type: 2}
-  distanceToSpeakers: 1.25
-  distanceBetweenSpeakers: 0.75
+  distanceToSpeakers: 1
+  distanceBetweenSpeakers: 1.25
   userHeight: 1
 --- !u!1 &1574030139
 GameObject:
@@ -3740,57 +3791,6 @@ MonoBehaviour:
   graspButtonAxis: RightVRTriggerAxis
   graspTimingSlop: 0.1
   _enableObjectsOnlyWhenTracked: []
---- !u!1001 &1788871722
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318185877895856, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114965184428878460, guid: 14ab4a51ceff80b4a9fd2988540ce92d,
-        type: 2}
-      propertyPath: _manager
-      value: 
-      objectReference: {fileID: 696577237}
-    - target: {fileID: 1705932141586802, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 14ab4a51ceff80b4a9fd2988540ce92d, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &1893786660
 GameObject:
   m_ObjectHideFlags: 0

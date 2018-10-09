@@ -7,41 +7,58 @@ public class SoundObjectFXController : MonoBehaviour {
 AudioSource source;
 private float scaledPanning;
 private float scaledVolume;
+
+public Collider thisCollider;
+public ColliderDistance2D distanceToCollider;
 public GameObject leftcollider;
 public GameObject rightcollider;
 public GameObject frontcollider;
 
 public float minimumObjectDistanceToUser;
-private float minimumPanningBoundaryValue; 
-private float maximumPanningBoundaryValue; 
-private float minimumVolumeBoundaryValue;
-private float maximumVolumeBoundaryValue;
+public float minimumPanningBoundaryValue; 
+public float maximumPanningBoundaryValue; 
+public float minimumVolumeBoundaryValue;
+public float maximumVolumeBoundaryValue;
+Vector3 closestSurfacePoint1;
+Vector3 closestSurfacePoint2;
 	void Start() {
 		source = GetComponent<AudioSource>();
 		frontcollider = GameObject.FindGameObjectWithTag("fcol");
 		leftcollider = GameObject.FindGameObjectWithTag("lcol");
 		rightcollider = GameObject.FindGameObjectWithTag("rcol");
+		
+		minimumObjectDistanceToUser = 0.1f;
 		minimumPanningBoundaryValue = leftcollider.transform.position.x;
 		maximumPanningBoundaryValue = rightcollider.transform.position.x;
-		minimumVolumeBoundaryValue = minimumObjectDistanceToUser;
+		minimumVolumeBoundaryValue = minimumObjectDistanceToUser; 
 		maximumVolumeBoundaryValue = frontcollider.transform.position.z;
-		StartCoroutine(PanningAndVolumeAdjustmentCoroutine());
-		Debug.Log("SetPanningRealtimeCoroutine has been initialized.");
+		StartCoroutine(PanningAdjustmentCoroutine());
+		Debug.Log("PanningAdjustmentCoroutine has been initialized.");
+		StartCoroutine(VolumeAdjustmentCoroutine());
+		Debug.Log("VolumeAdjustmentCoroutine has been initialized.");
 	}
 
-	private IEnumerator PanningAndVolumeAdjustmentCoroutine(){
+	private IEnumerator PanningAdjustmentCoroutine(){
 		float gameObjectXPosition = gameObject.transform.position.x;
-		float gameObjectZPosition = gameObject.transform.position.z;
 		scaledPanning = ScalarConversionTool(minimumPanningBoundaryValue,maximumPanningBoundaryValue,gameObjectXPosition,-1f,1f);
-		scaledVolume = 1f-ScalarConversionTool(minimumVolumeBoundaryValue,maximumVolumeBoundaryValue,gameObjectZPosition,0f,1f);
 		source.panStereo = scaledPanning;
+		yield return null;
+		
+	}
+
+	private IEnumerator VolumeAdjustmentCoroutine(){
+		closestSurfacePoint1 = thisCollider.ClosestPointOnBounds(frontcollider.transform.position);
+		closestSurfacePoint2 = frontcollider.GetComponent<Collider>().ClosestPointOnBounds(thisCollider.transform.position);
+		float surfaceDistance = Vector3.Distance(closestSurfacePoint1, closestSurfacePoint2);
+		scaledVolume = ScalarConversionTool(minimumVolumeBoundaryValue,maximumVolumeBoundaryValue,surfaceDistance,0f,1f);
 		source.volume = scaledVolume;
-		yield return new WaitForSeconds(.05f);
+		yield return null;
 	}
 
 	// Use this for initialization
 	void UpdateFX() {
-		StartCoroutine(PanningAndVolumeAdjustmentCoroutine());
+		StartCoroutine(PanningAdjustmentCoroutine());
+		StartCoroutine(VolumeAdjustmentCoroutine());
 	}
 
 	float ScalarConversionTool(float min, float max, float x, float a, float b){
