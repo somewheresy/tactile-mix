@@ -4,6 +4,8 @@ Tactile Mix is a VR program designed in Unity and written primarily in C# for mi
 
 ## Changelog
 
+Patch notes for Tactile Mix are available through [Somewhere Systems](https://somewhere.systems/) and can be accessed via this [link](https://somewhere.systems/tactile-mix-release-notes).
+
 ## Getting Started
 
 ### Prerequisites
