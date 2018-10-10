@@ -19,13 +19,13 @@ Recommended Hardware
 
 The HTC VIVE VR Headset is currently the only supported headset. Any other hardware will require you to change the input settings. You can learn more about how to do that [here](https://docs.unity3d.com/Manual/class-PlayerSettings.html).
 
-GPU: Nvidia GeForce GTX 970, AMD Radeon R9 290 equivalent or better
-CPU: Intel i5-4590, AMD FX 8350 equivalent or better
-RAM: 4 GB or more
-Video Output: HDMI 1.4, DisplayPort 1.2 or newer
-USB Port: 1x USB 2.0 or better port
-Operating System: Windows 7 SP1, Windows 8.1 or later, Windows 10
-OSX & Linux builds are possible but not tested.
+* GPU: Nvidia GeForce GTX 970, AMD Radeon R9 290 equivalent or better
+* CPU: Intel i5-4590, AMD FX 8350 equivalent or better
+* RAM: 4 GB or more
+* Video Output: HDMI 1.4, DisplayPort 1.2 or newer
+* USB Port: 1x USB 2.0 or better port
+* Operating System: Windows 7 SP1, Windows 8.1 or later, Windows 10
+* OSX & Linux builds are possible but not tested.
 
 ## To-Do
 
