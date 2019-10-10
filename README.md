@@ -59,6 +59,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Leap Motion © 2018, LEAP MOTION, INC.  
 
+## Potentially Inappropriate, Extremely Biased Non-Sequitur
+
+Our planet is a unique and special place with billions of unique and special people. Please consider treating each and every one of them kindly and with the dignity and respect of a species that somehow hasn't managed to kill itself while having wide access to nuclear weapons. We may be the only intelligent species within the vast reach of our planet, and if we fail to protect nature, we will fail to protect ourselves from extinction.
+
+When designing your own software, whether it is imagined from this project or one of your own unique creations, I heavily suggest licensing it open-source. Information is one of the only nearly-infinitely-abundant resources (and perhaps the _only_ infinitely abundant resource). I had a lengthy and difficult time designing, prototyping, developing, and testing this software due to the lack of open-source material related to VR audio mixing interfaces. By choosing to release your _information_ into the world without a price tag, it becomes so much more valuable to the pursuit of solutions to the problems which face our civilization -- even small ones such as the ones this software aims to solve.
+
+I believe in you. You can do it. Let's go __somewhere__.
+
 ## Contact
 
 * **Justin Bennington** [email](justin@somewhere.systems)
