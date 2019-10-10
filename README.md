@@ -1,6 +1,12 @@
 # Tactile Mix
 
-Tactile Mix is a VR program designed in Unity and written primarily in C# for mixing multichannel sound sources in a virtual environment, using either the Leap Motion Orion tracking software/hardware or the stock HTC Vive controllers. 
+Tactile Mix is a VR program designed in Unity and written primarily in C# for mixing multichannel sound sources in a virtual environment, using either the Leap Motion Orion tracking software/hardware or the stock HTC Vive controllers.
+
+## Before you begin...
+
+A full guide of how this project works, what it can be used for, and how to modify it will be posted ahead of the presentation of the related research at AES147, no later than October 18th, 2019. It will feature artwork by Matt Montebello (IG: @metateisdead), [Olivia Bennington](https://ob.style), and Stephanie LaBruna (IG: @_stephnay_). It'll also cover everything from downloading the project to running tests. Long overdue, I know, but it'll be worth it!
+
+(Plus, I'm working on a new version which has some cool features specifically for the Oculus Quest, more on this soon.)
 
 ## Changelog
 
@@ -17,7 +23,7 @@ You can download Unity [here](https://unity3d.com/get-unity/download).
 
 Recommended Hardware
 
-The HTC VIVE VR Headset is currently the only supported headset. Any other hardware will require you to change the input settings. You can learn more about how to do that [here](https://docs.unity3d.com/Manual/class-PlayerSettings.html).
+The HTC VIVE VR Headset is currently the only tested headset. Other hardware may require you to change the input settings. You can learn more about how to do that [here](https://docs.unity3d.com/Manual/class-PlayerSettings.html).
 
 * GPU: Nvidia GeForce GTX 970, AMD Radeon R9 290 equivalent or better
 * CPU: Intel i5-4590, AMD FX 8350 equivalent or better
