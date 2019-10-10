@@ -11,7 +11,7 @@ Patch notes for Tactile Mix are available through [Somewhere Systems](https://so
 ### Prerequisites
 Required Software
 
-Unity 2018.2 was used for the development of this project. Later versions of Unity are not supported.
+Unity v2018.2 was used for the development of this project. Later versions of Unity are untested.
 
 You can download Unity [here](https://unity3d.com/get-unity/download).
 
@@ -27,10 +27,10 @@ The HTC VIVE VR Headset is currently the only supported headset. Any other hardw
 * Operating System: Windows 7 SP1, Windows 8.1 or later, Windows 10
 * OSX & Linux builds are possible but not tested.
 
-## To-Do
+## Upcoming Changes
 
-* Documentation
-* Install Guide
+* Full documentation & install guide on October 18th, 2019
+* New version which includes support for Oculus Quest coming soon...
 
 ## Built With
 
